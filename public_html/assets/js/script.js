@@ -11,7 +11,7 @@ form.addEventListener("submit", function (e) {
     body: formData,
     mode: "no-cors",
   }).then(() => {
-    window.location.href = "my-portfolio/public_html/thanks.html";
+    window.location.href = "thanks.html";
   });
 });
 
